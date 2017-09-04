@@ -3039,6 +3039,7 @@
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
 				background: rgba(49, 36, 80, 0.9);
+				/*background-color: #D4D4D4;*/
 				content: '';
 				display: block;
 				height: 100%;
@@ -3472,7 +3473,7 @@
 
 		}
 
-/* Wrapper (main) */
+/* Wrapper (main)  ============================================================= */
 
 	#sidebar + #wrapper {
 		margin-left: 18em;
@@ -3499,7 +3500,7 @@
 		margin: 0 auto;
 	}
 
-/* Footer */
+/* Footer  ============================================================= */
 
 	#sidebar + #wrapper + #footer {
 		margin-left: 18em;
@@ -3530,16 +3531,16 @@
 		margin: 0 auto;
 	}
 
-/* Sidebar */
+/* Sidebar ============================================================ */
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #7F7F7F;
 		cursor: default;
 		height: 100vh;
 		left: 0;
-		overflow-x: hidden;
-		overflow-y: auto;
+		/*overflow-x: hidden;
+		overflow-y: auto;*/
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -3880,11 +3881,12 @@
 
 		}
 
-/* Intro */
+/* Intro =============================================================*/
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/*background-image: url("images/intro.svg");*/
+		background-color: #DBC5D0;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
