@@ -6,6 +6,18 @@
 
 (function($) {
 
+  //  $('.hello').hover( function(){
+  //     $(this).parent().parent().addClass("hello_hover");
+  //  },
+  //  function(){
+  //     $(this).parent().parent().removeClass("hello_hover");
+  //  });
+
+
+	// $(".hello").hover(function () {
+  //   $(this).toggleClass("hello_hover");
+	// });
+
 	skel.breakpoints({
 		xlarge:	'(max-width: 1680px)',
 		large:	'(max-width: 1280px)',
