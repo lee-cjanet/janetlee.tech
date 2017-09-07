@@ -41,6 +41,8 @@
 						<div class="inner">
 
 							<h1 class="hello"
+							onMouse
+							$(".welcome-container")[0].className = "welcome-container2"
 							style="font-family: 'Italiana', serif;">
 							<!-- "font-family: 'Cormorant Garamond', serif;" -->
 							Hello!</h1>
@@ -65,7 +67,9 @@
 						<section>
 							<a href="#" class="image"><img src="images/pixelpusherSplash.png" alt="" data-position="center center" /></a>
 							<div class="content"
-							onMouseOver="this.style.backgroundColor='#D4D4D4', this.style.color='#FFFFFF'"
+							style="background-color: #FFFFFF;"
+							onMouseOver="this.style.backgroundColor='#D4D4D4', this.style.color='#FFFFFF',
+							this.style.transition='.6s'"
 							onMouseOut="this.style.backgroundColor='#FFFFFF', this.style.color='#AFAFAF'"
 							>
 								<div class="inner">
@@ -87,7 +91,11 @@
 						</section>
 
 						<section>
-							<div class="content" style="background-color: #EBD7D3;">
+							<div class="content"
+								style="background-color: #FFFFFF;"
+								onMouseOver="this.style.backgroundColor='#EBD7D3', this.style.color='#FFFFFF',
+								this.style.transition='.6s'"
+								onMouseOut="this.style.backgroundColor='#FFFFFF', this.style.color='#AFAFAF'">
 								<div class="inner">
 									<h2>Woven App</h2>
 									<p>
@@ -108,7 +116,10 @@
 
 						<section>
 							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content" style="background-color: #D4D4D4;">
+							<div class="content" style="background-color: #FFFFFF;"
+								onMouseOver="this.style.backgroundColor='#D4D4D4', this.style.color='#FFFFFF',
+								this.style.transition='.6s'"
+								onMouseOut="this.style.backgroundColor='#FFFFFF', this.style.color='#AFAFAF'">
 								<div class="inner">
 									<h2>Sunhee Moon</h2>
 									<p>Coming Soon</p>
