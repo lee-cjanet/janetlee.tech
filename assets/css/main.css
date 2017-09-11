@@ -1907,6 +1907,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		overflow: hidden;
 	}
 
 		input[type="submit"]:after,
@@ -3065,7 +3066,7 @@
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			width: 43em;
 			-ms-flex: 1;
 		}
 
@@ -3930,6 +3931,9 @@
 			}
 
 		}
+
+
+		
 
 /*section#intro.wrapper.style1.fullscreen.fade-up:hover {
 	background-color: #121212;
