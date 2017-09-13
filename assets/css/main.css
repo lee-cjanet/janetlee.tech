@@ -2910,6 +2910,7 @@
 		line-height: 1.5em;
 	}
 
+
 /* Split */
 
 	.split {
@@ -3933,7 +3934,7 @@
 		}
 
 
-		
+
 
 /*section#intro.wrapper.style1.fullscreen.fade-up:hover {
 	background-color: #121212;
@@ -3953,3 +3954,11 @@
 		color: #fff;
 	}
 }*/
+
+
+#three {
+	background-image: url("./images/contactBackground.png");
+	/*background-position: top right;*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
