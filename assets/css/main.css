@@ -3265,7 +3265,8 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #121212;
+			/*background-color: #121212;*/
+			background-color: white;
 		}
 
 		.wrapper.style2-alt {
@@ -3961,4 +3962,20 @@
 	/*background-position: top right;*/
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+
+.individual-project {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%
+}
+
+.individual-project-image {
+	display: flex;
+}
+
+.inner {
+	margin: 2em;
+	border-radius: 2px;
 }
