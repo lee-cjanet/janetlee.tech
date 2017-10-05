@@ -3975,7 +3975,7 @@
 	display: flex;
 }
 
-.inner {
+.content.inner {
 	margin: 2em;
 	border-radius: 2px;
 }
