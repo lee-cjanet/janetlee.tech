@@ -3074,7 +3074,7 @@
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 27em;
+			width: 26em;
 			border-radius: .2em;
 			-ms-flex: 1;
 		}
@@ -3116,7 +3116,7 @@
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
-				padding: 3em 3em 1em 3em ;
+				padding: 2em 4em 0em 4em ;
 			}
 
 		}
@@ -3993,4 +3993,8 @@
 .laptop-img {
 	height: 15em;
 	width: 27em
+}
+
+#woven {
+	text-align: right;
 }
